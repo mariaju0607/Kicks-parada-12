@@ -1,0 +1,40 @@
+body {
+    background-image: url("../img/background/crypto_codigo.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 99vh;
+    font-size: 1.10em;
+    font-family: "Lucida Console"
+}
+
+img {
+    max-width: 3em;
+    max-height: 3em;
+    margin: 1em;
+}
+
+.textoCentral,
+td {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+}
+
+#tabelaLinguagens {
+    flex: 1;
+    border-collapse: collapse;
+    background-color: #282C35;
+    opacity: 90%;
+    display: block;
+    align-self: center;
+    overflow-y: scroll;
+}
+
+td,
+th {
+    border: 0.1em solid;
+}
